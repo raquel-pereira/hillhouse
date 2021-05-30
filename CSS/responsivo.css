@@ -5,31 +5,50 @@
         height: 20%;
         background-color: black;
     }
-
     header ul li{
         width: 100%;
         background-color: #03989E;
         margin-bottom: 0.3rem;
         font-size: 1rem;
     }
-
     #menu{
         position: absolute;
     }
-
     header div{
         margin-top: 8rem;
     }
-
     main section{
         font-size: 1rem;
     }
-
+    #titulo{
+        font-size: 1.2rem;
+    }
     footer section{
         display: flex;
     }
-
     footer section div:first-child, div:nth-child(3){
         display: none;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1024px){
+    header ul li{
+        width: 49.90%;
+        background-color: #03989E;
+        margin-bottom: 0.06rem;
+    }
+    header ul{
+        flex-wrap: wrap;
+        background-color: black;
+        justify-content: space-between;
+    }
+    #menu{
+        position: absolute;
+    }
+    header div{
+        margin-top: 8rem;
+    }
+    footer section div:first-child, div:nth-child(3){
+        font-size: 0.8rem;
     }
 }

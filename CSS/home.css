@@ -97,3 +97,17 @@ fieldset div input{
         max-width: 20rem;
     }
 }
+
+@media screen and (min-width: 721px) and (max-width: 1024px){
+    main div{
+        display: flex;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    main div img{
+        margin-bottom: 0.7rem;
+        width: 90%;
+    }
+}
