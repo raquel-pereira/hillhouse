@@ -14,14 +14,16 @@ header div{
     margin-top: 4rem;
 }
 
-#menu{
+#menu{ 
     position: fixed;
     width: 100%;
     top: 0%;
+    z-index: 1;
 }
 
 header ul{
     height: 3rem;
+    width: 100%;
     margin: 0;
     padding: 0;
     display:flex;
@@ -130,4 +132,17 @@ footer section div a{
 
 #titulo{
     font-family: 'Ubuntu';
+}
+
+.img-scale {
+    overflow: hidden;
+}
+  
+.img-scale {
+    transition: transform 1s;
+    will-change: transform
+}
+  
+.img-scale:hover {
+    transform: scale(1.2);
 }

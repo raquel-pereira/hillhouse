@@ -2,7 +2,7 @@ header ul li:first-child{
     background-color: #032d3a; 
 }
 
-main{
+main, fieldset{
     display: flex;
     justify-content: center;
     flex-flow: wrap;
@@ -49,4 +49,31 @@ main p{
 
 main div img{
     width: 19rem;
+}
+
+fieldset{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+fieldset div{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-right: 3rem;
+}
+
+fieldset div input{
+    margin-bottom: 1em;
+}
+
+
+@media screen and (max-width: 720px) {
+    main div{
+        display: flex;
+        flex-direction: column;
+    }
+    main div img{
+        margin-bottom: 0.7rem;
+    }
 }

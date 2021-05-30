@@ -1,0 +1,19 @@
+@media screen and (max-width: 720px) {
+    header ul{
+        flex-flow: column;
+        justify-content: center;
+        height: 20%;
+        background-color: black;
+    }
+
+    header ul li{
+        width: 100%;
+        background-color: #03989E;
+        margin-bottom: 0.3rem;
+        font-size: 0.7rem;
+    }
+
+    #menu{
+        position: absolute;
+    }
+}
