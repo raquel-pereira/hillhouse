@@ -2,7 +2,7 @@ header ul li:first-child{
     background-color: #032d3a; 
 }
 
-main, fieldset{
+main{
     display: flex;
     justify-content: center;
     flex-flow: wrap;
@@ -54,6 +54,13 @@ main div img{
 fieldset{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 3%;
+    background-color:#022935;
+    border: solid 5px #03989E;
+    padding: 2.5% 10%;
+    border-radius: 15px;
+    text-align: justify;
+    color: antiquewhite;
 }
 
 fieldset div{
@@ -83,5 +90,9 @@ fieldset div input{
     }
     fieldset{
         grid-template-columns: 1fr;
+        margin: 3%;
+    }
+    fieldset div input{
+        width: 20rem;
     }
 }
