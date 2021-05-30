@@ -1,0 +1,133 @@
+body{
+    background-color:rgb(0, 0, 0);
+    margin: 0 auto;
+    height: 100%;
+    font-family: 'Roboto'
+}
+
+header div{
+    background-image: url(../IMG/ophh.png );
+    background-repeat:no-repeat;
+    background-size:contain; 
+    background-position:center;
+    height: 250px;
+    margin-top: 4rem;
+}
+
+#menu{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+header ul{
+    height: 3rem;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-around;
+    background-color: #03989E; 
+    margin-left: 0%;
+    margin-right: 0%;
+    color: ivory;
+    font-size: 20px;
+    list-style: none;
+}
+
+header li{
+    height: 100%;
+    width: 16rem;
+}
+
+header li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: antiquewhite;
+    height: 100%;
+    width: 100%;
+}
+
+header ul li:hover{
+    background-color: #032d3a; 
+}
+
+footer section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    color: white;   
+    background-color: #03989E;
+    height: 12rem;
+}
+ 
+footer section p{
+    padding: 0.3rem;
+} 
+
+footer section div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+footer section div a{
+    margin:2rem;
+}
+
+.fa-facebook-square{
+    color: rgb(70, 70, 70);
+}
+
+.fa-instagram{
+    color:rgb(70, 70, 70);
+}
+
+.iconify{
+    color:rgb(70, 70, 70);
+}
+
+.Ending{
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    font-size: 1.2rem;
+    align-content: center;
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.sessão{
+    display: block;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.sessão p{
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+#item1{
+    grid-column: 1/2;
+}
+
+#item2{
+    grid-column: 2/3;
+}
+
+#item3{
+    grid-column: 3/4;
+}
+
+#titulo{
+    font-family: 'Ubuntu';
+}
