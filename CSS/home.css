@@ -72,8 +72,16 @@ fieldset div input{
     main div{
         display: flex;
         flex-direction: column;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
     }
     main div img{
         margin-bottom: 0.7rem;
+    }
+    main p{
+        font-size: 1rem ;
+    }
+    fieldset{
+        grid-template-columns: 1fr;
     }
 }

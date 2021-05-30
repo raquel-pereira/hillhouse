@@ -10,10 +10,26 @@
         width: 100%;
         background-color: #03989E;
         margin-bottom: 0.3rem;
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     #menu{
         position: absolute;
+    }
+
+    header div{
+        margin-top: 8rem;
+    }
+
+    main section{
+        font-size: 1rem;
+    }
+
+    footer section{
+        display: flex;
+    }
+
+    footer section div:first-child, div:nth-child(3){
+        display: none;
     }
 }
